@@ -28,6 +28,24 @@
         android:theme="@style/Theme.MuxLive"
         tools:targetApi="31">
         <activity
+            android:name=".SampleChooserActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".PlayerActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.exoplayer.demo.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="asset"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ConfigureActivity"
             android:exported="false" />
         <activity

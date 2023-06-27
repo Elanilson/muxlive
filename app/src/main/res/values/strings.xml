@@ -2,4 +2,5 @@
     <string name="app_name">MuxLive</string>
     <string name="chave_secreta">R7uWdQXaeYeAVWPZKxl60bTskU19Un9BZQHdTQaYL5GLrHhn7DRSRviE1tB1hUFLy0QwfHMsea8</string>
     <string name="chave">bed3da51-240a-4a9e-b984-1987aa25d542</string>
+    <string name="video_error_text">Playback failed</string>
 </resources>
