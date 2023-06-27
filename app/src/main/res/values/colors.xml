@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mux_pink">#FB2490</color>
+    <color name="mux_dark_pink">#AB1B64</color>
+    <color name="verde">#1AA50B</color>
+    <color name="vermelho">#DA1717</color>
+    <color name="cinza300">#656363</color>
+</resources>
