@@ -26,6 +26,18 @@ import net.ossrs.rtmp.ConnectCheckerRtmp;
 import com.pedro.encoder.input.video.CameraHelper;
 import com.pedro.rtplibrary.util.FpsListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.apkdoandroid.muxlive.api.MuxApiService;
+import br.com.apkdoandroid.muxlive.api.RetrofitClient;
+import br.com.apkdoandroid.muxlive.entities.LiveStream;
+import br.com.apkdoandroid.muxlive.entities.LiveStreamsResponse;
+import br.com.apkdoandroid.muxlive.helper.Constantes;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback, ConnectCheckerRtmp, View.OnTouchListener {
     // Logging tag
     private static final String TAG = "MuxLive";
@@ -47,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     private Boolean liveDesired = false;
     private String streamKey;
     private Preset preset;
+
 
     // Codificação de predefinições e perfis
     public enum Preset {
@@ -229,6 +242,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         Log.i(TAG, "Conexão RTMP com sucesso");
         MainActivity.this.runOnUiThread(new Runnable() {
             public void run() {
+                findViewById(R.id.textView2AoVivo).setVisibility(View.VISIBLE);
                 muxToast("Conexão RTMP bem-sucedida!");
             }
         });
@@ -240,6 +254,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         MainActivity.this.runOnUiThread(new Runnable() {
             public void run() {
                 goLiveButton.setText("Reconectando... (Cancelar)");
+                findViewById(R.id.textView2AoVivo).setVisibility(View.GONE);
                 muxToast("Falha na conexão RTMP: " + reason);
             }
         });
@@ -263,6 +278,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         Log.i(TAG, "RTMP Desconectar");
         MainActivity.this.runOnUiThread(new Runnable() {
             public void run() {
+                findViewById(R.id.textView2AoVivo).setVisibility(View.GONE);
                 bitrateLabel.setText("0 kbps");
                 fpsLabel.setText("0 fps");
                 muxToast("RTMP desconectado!");
@@ -284,4 +300,8 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
     public boolean onTouch(View view, MotionEvent motionEvent) {
         return false;
     }
+
+
+
+
 }

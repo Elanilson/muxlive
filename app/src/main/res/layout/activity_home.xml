@@ -19,6 +19,12 @@
         android:layout_height="wrap_content"
         android:text="Buscar Transmissões" />
 
+    <Button
+        android:id="@+id/buttonBuscarLives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Lives" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerviewTransmissoes"
         android:layout_width="match_parent"

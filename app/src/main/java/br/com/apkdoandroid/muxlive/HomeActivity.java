@@ -70,6 +70,14 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        binding.buttonBuscarLives.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, LivesDisponiveisActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         OnLiveStream listener = new OnLiveStream() {
             @Override

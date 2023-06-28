@@ -1,0 +1,26 @@
+
+D
+java:S1604k"(Make this anonymous inner class a lambda(ç’ƒL8‰¯¢õ1
+
+java:S1186‹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦æ—&8º¯¢õ1
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©íÂÿÿÿÿÿ8»¯¢õ1
+]	java:S125 "<This block of commented-out lines of code should be removed.(ÃÈêÎûÿÿÿÿ8Æ¯¢õ1
+L
+java:S1874)"/Remove this use of "Handler"; it is deprecated.(ïóî‘8Ç¯¢õ1
+W
+java:S18545":Remove this useless assignment to local variable "intent".(å¯Ô«8Ç¯¢õ1
+H
+java:S14815"+Remove this unused "intent" local variable.(å¯Ô«8Ë¯¢õ1
+]	java:S1259"<This block of commented-out lines of code should be removed.(ü¼Üøÿÿÿÿ8×¯¢õ1
+V
+java:S1874?"9Remove this use of "getDefaultDisplay"; it is deprecated.(ó©ÿ›8Ù¯¢õ1
+L
+java:S1874?"/Remove this use of "getSize"; it is deprecated.(ó©ÿ›8Ù¯¢õ1
+]	java:S125y"<This block of commented-out lines of code should be removed.(°¸ô‹üÿÿÿÿ8à¯¢õ1
+W
+java:S1874 "9Remove this use of "getDefaultDisplay"; it is deprecated.(ó©ÿ›8â¯¢õ1
+M
+java:S1874 "/Remove this use of "getSize"; it is deprecated.(ó©ÿ›8â¯¢õ1
+F
+java:S1905¤"(Remove this unnecessary cast to "float".(×‹ì„8ã¯¢õ1

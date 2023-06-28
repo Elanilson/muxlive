@@ -1,0 +1,9 @@
+
+e
+java:S20958"IUse try-with-resources or close this "InputStream" in a "finally" clause.(º’Ü$8¬··ô1
+~
+java:S1450"\Remove the "sampleAdapter" field and declare it as a local variable in the relevant methods.(ÊÑÌüÿÿÿÿ8···ô1
+l
+java:S2674;"JCheck the return value of the "read" call to see how many bytes were read.(òÒ»§ùÿÿÿÿ8Ç··ô1
+V
+java:S4719="9Replace charset name argument with StandardCharsets.UTF_8(ŞŞë‰8Ë··ô1

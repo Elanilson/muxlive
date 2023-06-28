@@ -63,4 +63,26 @@
         app:layout_constraintBottom_toBottomOf="@id/surfaceView"
         app:layout_constraintStart_toStartOf="@+id/surfaceView" />
 
+    <TextView
+        android:id="@+id/textView2AoVivo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/vermelho"
+        android:drawableLeft="@drawable/transmissao"
+        android:drawablePadding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="4dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="4dp"
+        android:text="AO VIVO"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

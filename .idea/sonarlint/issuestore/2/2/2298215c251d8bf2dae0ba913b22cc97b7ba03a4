@@ -1,0 +1,11 @@
+
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÀİŒë8ïÄªÁ1
+w	java:S116$"VRename this field "PERMISSIONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëµïµùÿÿÿÿ8ğÄªÁ1
+x
+java:S1450!"VRemove the "binding" field and declare it as a local variable in the relevant methods.(¢¿æÒúÿÿÿÿ8öÄªÁ1
+X	java:S125-"<This block of commented-out lines of code should be removed.(ßÿèü8‚ÅªÁ1
+]	java:S125C"<This block of commented-out lines of code should be removed.(”ø¿ıùÿÿÿÿ8ŠÅªÁ1
+H
+java:S1172V"+Remove this unused method parameter "view".(ëÑìş8ŒÅªÁ1
+y
+java:S3252w"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÂÖ×€ùÿÿÿÿ8œÅªÁ1

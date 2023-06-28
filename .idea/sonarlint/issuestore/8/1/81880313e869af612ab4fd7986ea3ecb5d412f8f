@@ -1,0 +1,31 @@
+
+\	java:S112â"FDefine and throw a dedicated exception instead of using a generic one.(„ïï 
+[	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(òêši
+o
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(½šìÜ
+t
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì‡†åùÿÿÿÿ
+o
+java:S2293V"YReplace the type specification in this constructor call with the diamond operator ("<>").(½šìÜ
+t
+java:S2293\"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì‡†åùÿÿÿÿ
+a
+java:S2184…"ECast one of the operands of this subtraction operation to a "double".(…õúÆúÿÿÿÿ
+q
+java:S1149&"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(‡íß¿ıÿÿÿÿ
+q
+java:S1149,"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(««îşúÿÿÿÿ
+l
+java:S11493"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÃÀÚú
+q
+java:S1149Q"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(««îşúÿÿÿÿ
+l
+java:S1149Y"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(­«éé
+m
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ãäÆ‚
+m
+java:S1149¤"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(³³áµ
+L
+java:S1874t"1Remove this use of "AsyncTask"; it is deprecated.(Ğ”ÕŠûÿÿÿÿ
+u
+java:S2142˜"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€

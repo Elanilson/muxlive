@@ -2,21 +2,19 @@ package br.com.apkdoandroid.muxlive.viewHolder;
 
 import android.view.View;
 
-import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
-import androidx.core.content.res.ResourcesCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import br.com.apkdoandroid.muxlive.R;
+import br.com.apkdoandroid.muxlive.databinding.LayoutLiveBinding;
 import br.com.apkdoandroid.muxlive.databinding.TransmissaoLayoutBinding;
 import br.com.apkdoandroid.muxlive.entities.LiveStream;
-import br.com.apkdoandroid.muxlive.entities.LiveStreamRequest;
 import br.com.apkdoandroid.muxlive.helper.DateUtils;
 import br.com.apkdoandroid.muxlive.interfaces.OnLiveStream;
 
-public class ViewHolderLiveStream extends RecyclerView.ViewHolder {
-    private TransmissaoLayoutBinding binding;
-    public ViewHolderLiveStream( TransmissaoLayoutBinding itemview) {
+public class ViewHolderLiveDisponiveis extends RecyclerView.ViewHolder {
+    private LayoutLiveBinding binding;
+    public ViewHolderLiveDisponiveis(LayoutLiveBinding itemview) {
         super(itemview.getRoot());
 
         binding = itemview;
@@ -39,23 +37,13 @@ public class ViewHolderLiveStream extends RecyclerView.ViewHolder {
 
         binding.textViewDataCriacao.setText(DateUtils.convertMillisToDateTime(liveStream.getCreated_at()));
 
-        binding.imageButtonTransmitir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.onClickTransmitir(liveStream);
-            }
-        });
-        binding.imageButtonAssistir.setOnClickListener(new View.OnClickListener() {
+
+        binding.card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 listener.onClickAssistir(liveStream);
             }
         });
-        binding.imageButtonDeletarTransmissao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.onDelete(liveStream);
-            }
-        });
+
     }
 }
