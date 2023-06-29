@@ -1,28 +1,14 @@
 
-}
-Mapp/src/main/java/br/com/apkdoandroid/muxlive/entities/LiveStreamRequest.java,d\6\d68112a873c9d1829c6016103936e5eea3f51bb2
-€
-Papp/src/main/java/br/com/apkdoandroid/muxlive/entities/NewAssetSettingsBean.java,4\6\4644ecb9a460e9ce0f0bd15691fae1f486db3205
 u
 Eapp/src/main/java/br/com/apkdoandroid/muxlive/api/RetrofitClient.java,6\e\6efa6f28d20c1ddf73b674581ca99a8302c4fbe2
-
-Oapp/src/main/java/br/com/apkdoandroid/muxlive/entities/LiveStreamsResponse.java,c\6\c622540b604db11a832c7ebe7b46a166505c22a7
-~
-Napp/src/main/java/br/com/apkdoandroid/muxlive/entities/LiveStreamResponse.java,5\1\5183f565e208013a2b0e4c373cda0dc1833f05a4
 z
 Japp/src/main/java/br/com/apkdoandroid/muxlive/interfaces/OnLiveStream.java,f\2\f2b0a51f63631d5ad9e10b561b728bd3d97bf30f
-v
-Fapp/src/main/java/br/com/apkdoandroid/muxlive/entities/LiveStream.java,4\3\438294cfcc775cc2e9394f4f492a23c3a8b96f7b
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-t
-Dapp/src/main/java/br/com/apkdoandroid/muxlive/api/MuxApiService.java,c\f\cf5253a333c74a456cb0bf08efe860f396be5494
 t
 Dapp/src/main/java/br/com/apkdoandroid/muxlive/ConfigureActivity.java,2\2\2298215c251d8bf2dae0ba913b22cc97b7ba03a4
 |
 Lapp/src/main/java/br/com/apkdoandroid/muxlive/adapter/LiveStreamAdapter.java,0\8\0852ef717a63967a63478ddb5da1af4ee4a760f1
-s
-Capp/src/main/java/br/com/apkdoandroid/muxlive/helper/DateUtils.java,b\6\b6b20e10f689910db4f76c24147dc381e59b228e
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 @

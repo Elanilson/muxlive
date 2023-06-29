@@ -3,6 +3,7 @@ package br.com.apkdoandroid.muxlive.api;
 import br.com.apkdoandroid.muxlive.entities.LiveStreamRequest;
 import br.com.apkdoandroid.muxlive.entities.LiveStreamResponse;
 import br.com.apkdoandroid.muxlive.entities.LiveStreamsResponse;
+import br.com.apkdoandroid.muxlive.entities.VideoAssetsResponse;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -20,6 +21,9 @@ public interface MuxApiService {
 
     @GET("/video/v1/live-streams")
     Call<LiveStreamsResponse> getLiveStreams();
+
+    @GET("/video/v1/assets/{asset_id}")
+    Call<VideoAssetsResponse> getVideoAssets(@Path("asset_id") String id);
 
     @DELETE("/video/v1/live-streams/{LIVE_STREAM_ID}")
     Call<Void> deleteLiveStream(@Path("LIVE_STREAM_ID") String id);
